@@ -42,7 +42,7 @@ An interactive **Gradio** web application is integrated, providing real-time dia
 ## 📂 Project Structure
 
 ```text
-├── 11220189_Hồ Thị Kim Anh_Nghiên cứu và xây dựng mô hình học sâu đa nhiệm dựa trên CLIP trong.pdf  # Detailed thesis report
+├── *.pdf                            # Detailed research thesis report
 ├── Source/
 │   ├── app.py                      # Interactive Gradio web interface & treatment database
 │   ├── model.py                    # PyTorch CLIPMultiTaskModel architecture definition
@@ -109,20 +109,6 @@ The complete training workflow is documented in `Source/Multi_task_learning.ipyn
 - **Data Augmentation:** Random rotations, affine transformations, color jitters, and CLIP-standard normalization.
 - **Loss Functions:** Multi-task loss combining Asymmetric/BCE Loss for disease recognition and Ordinal Cross-Entropy / Margin Loss for severity grading.
 - **Threshold Optimization:** Class-specific decision thresholds tuned on validation data for optimal F1-score across imbalanced classes.
-
----
-
-## 📖 Research Documentation
-
-For detailed methodology, mathematical formulations, experimental setup, and comparative performance analyses, please refer to the thesis report:
-* [`11220189_Hồ Thị Kim Anh_Nghiên cứu và xây dựng mô hình học sâu đa nhiệm dựa trên CLIP trong.pdf`](11220189_Hồ%20Thị%20Kim%20Anh_Nghiên%20cứu%20và%20xây%20dựng%20mô%20hình%20học%20sâu%20đa%20nhiệm%20dựa%20trên%20CLIP%20trong.pdf)
-
----
-
-## 👤 Author
-
-* **Hồ Thị Kim Anh** (Student ID: `11220189`)
-* GitHub: [@HTKA0314](https://github.com/HTKA0314)
 
 ---
 
